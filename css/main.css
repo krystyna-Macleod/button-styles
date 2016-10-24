@@ -8,13 +8,15 @@ html {
 }
 
 div {
-  padding: .5rem;
+  padding: .75rem;
   text-align: center;
   text-decoration: none;
+  line-height: 1.5;
 }
 
 .btn {
   display: inline-block;
+  font-size: 1.125rem;
 }
 
 .btn, .btn-small, .btn-big {
@@ -22,21 +24,48 @@ div {
   color: #fff;
 }
 
+.btn-small {
+  font-size: .875rem;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
+
 .btn-subtle, .btn-small-subtle, .btn-big-subtle {
   background-color: #ccc;
   color: #fff;
+}
+
+.btn-small-subtle, .btn-big-subtle {
   border: #ccc 3px solid;
 }
 
 .btn-ghost, .btn-small-ghost, .btn-big-ghost {
-  border: #000 3px solid;
   color: #000;
   background-color: #fff;
 }
 
-.btn-warning, .btn-small-warning, .btn-big-warning {
+.btn-small-ghost, .btn-big-ghost {
+  border: #000 3px solid;
+}
+
+.btn-warning {
   background-color: #f33;
   color: #fff;
+}
+
+.btn-small-warning {
+  background-color: #f33;
+  color: #fff;
+}
+
+.btn-big-warning {
+  background-color: #f33;
+  color: #fff;
+}
+
+.btn-warning .btn-small-warning .btn-big-warning {
   border: #f33 3px solid;
 }
 
