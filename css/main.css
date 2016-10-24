@@ -8,7 +8,8 @@ html {
 }
 
 div {
-  padding: .75rem;
+  padding: .81em;
+  margin: .3rem;
   text-align: center;
   text-decoration: none;
   line-height: 1.5;
@@ -32,6 +33,10 @@ div {
   font-size: 1.5rem;
 }
 
+.btn-subtle {
+  border: #ccc 3px solid;
+}
+
 .btn-subtle, .btn-small-subtle, .btn-big-subtle {
   background-color: #ccc;
   color: #fff;
@@ -39,6 +44,10 @@ div {
 
 .btn-small-subtle, .btn-big-subtle {
   border: #ccc 3px solid;
+}
+
+.btn-ghost {
+  border: #000 3px solid;
 }
 
 .btn-ghost, .btn-small-ghost, .btn-big-ghost {
@@ -73,6 +82,7 @@ div {
   font-size: 1.125rem;
   border-radius: 8px;
   padding: .4em .75em .3em;
+  margin: 0;
   text-decoration: none;
 }
 
@@ -80,6 +90,7 @@ div {
   font-size: .875rem;
   border-radius: 8px;
   padding: .4em .75em .3em;
+  margin: 0;
   text-decoration: none;
 }
 
@@ -87,6 +98,7 @@ div {
   font-size: 1.5rem;
   border-radius: 8px;
   padding: .4em .75em .3em;
+  margin: 0;
   text-decoration: none;
 }
 
