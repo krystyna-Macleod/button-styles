@@ -38,6 +38,7 @@ div {
 .btn {
   display: inline-block;
   font-size: 1.125rem;
+  border: #333 3px solid;
 }
 
 .btn, .btn-small, .btn-big {
@@ -53,10 +54,6 @@ div {
   font-size: 1.5rem;
 }
 
-.btn-subtle {
-  border: #ccc 3px solid;
-}
-
 .btn-subtle, .btn-small-subtle, .btn-big-subtle {
   background-color: #ccc;
   color: #fff;
@@ -64,10 +61,6 @@ div {
 
 .btn-small-subtle, .btn-big-subtle {
   border: #ccc 3px solid;
-}
-
-.btn-ghost {
-  border: #000 3px solid;
 }
 
 .btn-ghost, .btn-small-ghost, .btn-big-ghost {
