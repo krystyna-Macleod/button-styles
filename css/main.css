@@ -8,29 +8,26 @@ html {
 }
 
 div {
-  padding: .81em;
+  padding: .75em;
   margin: .3rem;
   text-align: center;
   text-decoration: none;
 }
 
 .box-1 {
-  margin: 0 0 .3rem;
-  margin-top: .3em;
+  margin: 0;
   text-align: center;
   text-decoration: none;
 }
 
 .box-2 {
-  margin: 0  0 .3rem;
-  margin-top: .3em;
+  margin: 0;
   text-align: center;
   text-decoration: none;
 }
 
 .box-3 {
-  margin: 0 0 .3rem;
-  margin-top: .3em;
+  margin: 0;
   text-align: center;
   text-decoration: none;
 }
@@ -59,6 +56,10 @@ div {
   color: #fff;
 }
 
+.btn-sub {
+  border: #ccc 3px solid;
+}
+
 .btn-small-subtle, .btn-big-subtle {
   border: #ccc 3px solid;
 }
@@ -70,6 +71,10 @@ div {
 
 .btn-small-ghost, .btn-big-ghost {
   border: #000 3px solid;
+}
+
+.btn-wan {
+  border: #f33 3px solid;
 }
 
 .btn-warning {
@@ -112,6 +117,7 @@ div {
   border-radius: 8px;
   padding: .4em .75em .3em;
   margin: 0;
+  margin: .3em;
   text-decoration: none;
 }
 
