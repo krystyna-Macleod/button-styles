@@ -8,8 +8,8 @@ html {
 }
 
 div {
-  padding: .75em;
-  margin: .3rem;
+  padding: .76em;
+  margin: .4rem;
   text-align: center;
   text-decoration: none;
 }
@@ -115,9 +115,8 @@ div {
 .third {
   font-size: 1.5rem;
   border-radius: 8px;
-  padding: .4em .75em .3em;
+  padding: .4em .81em .3em;
   margin: 0;
-  margin: .3em;
   text-decoration: none;
 }
 
