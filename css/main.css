@@ -8,39 +8,22 @@ html {
 }
 
 div {
-  padding: .76em;
-  margin: .4rem;
+  padding: .5rem;
   text-align: center;
-  text-decoration: none;
 }
 
-.box-1 {
-  margin: 0;
-  text-align: center;
-  text-decoration: none;
-}
-
-.box-2 {
-  margin: 0;
-  text-align: center;
-  text-decoration: none;
-}
-
-.box-3 {
-  margin: 0;
-  text-align: center;
+a {
   text-decoration: none;
 }
 
 .btn {
   display: inline-block;
+  color: #fff;
+  background-color: #333;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
   font-size: 1.125rem;
   border: #333 3px solid;
-}
-
-.btn, .btn-small, .btn-big {
-  background-color: #333;
-  color: #fff;
 }
 
 .btn-small {
@@ -51,30 +34,16 @@ div {
   font-size: 1.5rem;
 }
 
-.btn-subtle, .btn-small-subtle, .btn-big-subtle {
+.btn-subtle {
   background-color: #ccc;
   color: #fff;
+  border-color: #ccc;
 }
 
-.btn-sub {
-  border: #ccc 3px solid;
-}
-
-.btn-small-subtle, .btn-big-subtle {
-  border: #ccc 3px solid;
-}
-
-.btn-ghost, .btn-small-ghost, .btn-big-ghost {
+.btn-ghost {
   color: #000;
   background-color: #fff;
-}
-
-.btn-small-ghost, .btn-big-ghost {
-  border: #000 3px solid;
-}
-
-.btn-wan {
-  border: #f33 4px solid;
+  border-color: #000;
 }
 
 .btn-warning {
@@ -82,59 +51,25 @@ div {
   color: #fff;
 }
 
-.btn-small-warning {
-  background-color: #f33;
-  color: #fff;
-}
-
-.btn-big-warning {
-  background-color: #f33;
-  color: #fff;
-}
-
-.btn-warning .btn-small-warning .btn-big-warning {
-  border: #f33 3px solid;
-}
-
-.first {
-  font-size: 1.125rem;
-  border-radius: 8px;
-  padding: .4em .75em .3em;
-  margin: 0;
-  text-decoration: none;
-}
-
-.sec {
-  font-size: .875rem;
-  border-radius: 8px;
-  padding: .4em .75em .3em;
-  margin: 0;
-  text-decoration: none;
-}
-
-.third {
-  font-size: 1.5rem;
-  border-radius: 8px;
-  padding: .4em .81em .3em;
-  margin: 0;
-  text-decoration: none;
-}
-
 .btn-subtle:hover {
+  color: #fff;
   background-color: #666;
-  border: #666 3px solid;
+  border: #666 solid;
 }
 
 .btn-warning:hover {
+  color: #fff;
   background-color: #933;
+  border: #f33 solid;
 }
 
 .btn-ghost:hover {
   background-color: #666;
   color: #fff;
-  border: #666 3px solid;
+  border: #666 solid;
 }
 
 .btn:hover {
   background-color: #000;
+  border: #333 solid;
 }
